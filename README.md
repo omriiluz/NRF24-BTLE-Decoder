@@ -2,7 +2,7 @@ NRF24-BTLE-Decoder
 ==================
 
 Sniff and decode NRF24L01+ and Bluetooth Low Energy using RTL-SDR.  
-These protocols use the ISM 2.4Ghz frequency range, which is beyond the capabilities of the cheap rtl-sdr, a down convertor is necessary. See [link] for more details.
+These protocols use the ISM 2.4Ghz frequency range, which is beyond the capabilities of the cheap rtl-sdr, a down convertor is necessary. See http://blog.cyberexplorer.me/2014/01/sniffing-and-decoding-nrf24l01-and.html for more details.
 
 The main repository is at https://github.com/omriiluz/NRF24-BTLE-Decoder
 
