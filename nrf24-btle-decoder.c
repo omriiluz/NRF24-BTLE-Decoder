@@ -347,8 +347,8 @@ void usage(void)
 		"            e.g. rtl_fm.exe -f 428m -s 2000k | nrf24-btle-decoder.exe -n -s 3\n\n"
 		"\t[-t packet_type (nrf or btle). defaults to nrf.] \n"
 		"\t[-d downsample_rate (1 for 2mbps , 2 for 1mbps, 8 for 256kbps), default to 2]\n"
-		"\t    using packet type btle implies -d 2\n");
-		"\t[-l len (1-32). Set a fixed packet length] \n"
+		"\t    using packet type btle implies -d 2\n"
+		"\t[-l len (1-32). Set a fixed packet length] \n");
 	exit(1);
 }
 
