@@ -1,8 +1,14 @@
 
 SHELL = /bin/sh
-CC    = gcc
- 
-FLAGS        = -std=gnu99
+UNAME_S := $(shell uname -s)
+
+ifeq ($(UNAME_S),Darwin)
+CC		= g++
+else
+CC    	= gcc
+FLAGS 	= -std=gnu99
+endif
+
 CFLAGS       = -Wall -O3
 OUTDIR		 = ./bin
  
